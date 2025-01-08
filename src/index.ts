@@ -4,7 +4,7 @@ import { Options } from 'selenium-webdriver/chrome'
 async function openMeet(driver: WebDriver) {
   
   try {
-    await driver.get('https://meet.google.com/dkk-xrmv-kqk');
+    await driver.get('https://meet.google.com/xqo-meyb-myf');
     ​​const popupButton = await driver.wait(until.elementLocated(By.xpath('//span[contains(text(), "Got it")]')), 10000);
     await popupButton.click()
     ​​const nameInput = await driver.wait(until.elementLocated(By.xpath('//input[@placeholder="Your name"]')), 10000);
